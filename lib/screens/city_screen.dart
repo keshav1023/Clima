@@ -38,6 +38,9 @@ class _CityScreenState extends State<CityScreen> {
                     color: Colors.black,
                   ),
                   decoration: kTextFieldfInputDecoration,
+                  onChanged: (value) {
+                    print(value);
+                  },
                 ),
               ),
               ElevatedButton(
